@@ -1,0 +1,58 @@
+header {
+    height: 75px;
+    width: 100%;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 998; 
+    
+    border-bottom: solid 4px #d2d2d2;
+    background-color: #FFF;
+    color: #000;
+    font-family: "Sacramento";
+    font-size: 40px;
+    
+}
+
+header div.pageTitle {
+    float: left;
+    /*width: 40%;*/
+    width: 100%;
+    text-align: center;
+    line-height: 75px;
+}
+
+
+header div.links {
+    float: left;
+    width: 60%;
+}
+
+header div.links ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+header div.links ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+header a {
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: solid 4px rgba(180, 12, 36, 0);
+    
+    transition-duration: 0.3s;
+}
+
+header a:hover {
+    border-bottom: solid 3px rgba(180, 12, 36, 1);
+}
