@@ -53,6 +53,8 @@ function getArticleData() {
                 //createItem(type,title,text,images,date)
                 createItem(json[i]['article_type'],json[i]['article_title'],json[i]['article_description'],json[i]['images'], json[i]['date_created']);
             }
+            
+            prepTimeline();
         }
     };
 
