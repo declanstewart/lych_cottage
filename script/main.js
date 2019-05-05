@@ -12,6 +12,10 @@ function handleToggleImage() {
     var imageElem = document.getElementById("image-container"); 
     var currentPosition = window.pageYOffset;
     blackoutElem.style.top = currentPosition + 'px';
+    var body = document.body,
+    html = document.documentElement;
+    var pageHeight = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+    blackoutElem.style.height = pageHeight + 'px';
     
     if(this.tagName === "IMG"){
         var selectedImageSrc = this.src;
