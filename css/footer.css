@@ -1,0 +1,21 @@
+footer {
+    height: 50px;
+    width: 100%;
+    
+    overflow: hidden;
+    
+    border-top: solid 4px #d2d2d2;
+    background-color: #FFF;
+    color: #000;
+}
+
+footer a {
+
+    
+}
+
+footer a img.icon {
+    height: 36px; /* footer[height] - img.icon[margin-top] - img.icon[margin-bottom] - footer[border-top] */
+    display: block;
+    margin: 5px auto;
+}
