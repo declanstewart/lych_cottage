@@ -17,8 +17,6 @@ header {
 }
 
 header div.pageTitle {
-    float: left;
-    /*width: 40%;*/
     width: 100%;
     text-align: center;
     line-height: 75px;

@@ -1,3 +1,13 @@
-li {
-    width: calc(100% / 2);
+header {
+    height: 50px;
+    font-size: 25px;
+    
+}
+
+header div.pageTitle {
+    line-height: 50px;
+}
+
+.cd-timeline {
+    padding-top: 50px ;
 }
